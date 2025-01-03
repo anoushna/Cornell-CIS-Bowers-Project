@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/site.css">
+    <title>Cornell Bowers CIS</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-container">
+            <a href="index.html">
+                <picture>
+                    <img src="images/logo.png" alt="Cornell Bowers Logo">
+                    <!-- Source: Client Provided -->
+                </picture>
+            </a>
+            <button aria-label="Open navigation menu" id="ham-menu">&#9776; </button>
+        </div>
+        <nav id="home_nav" class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="academic.html">Academic Information</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="staff.html">Staff</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="home_banner">
+            <div class="home_banner_img">
+                <img src="images/stock_image_home.jpg" alt="Stock Image on Home Page" class="small-banner">
+                <!-- Source: Client Provided -->
+
+                <img src="images/big_home_banner.jpg" alt="Stock Image on Home Pag" class="big-banner hidden">
+                <!-- Source: Client Provided -->
+            </div>
+            <section class="home_banner_head">
+                <h1><strong>The Department of Information Science</strong></h1>
+                <p> Cornell Bowers <abbr title="Computing and Information Science">CIS</abbr> provides a solid foundation in technical expertise, strong fundamentals, and theory, preparing students to solve problems across multiple domains and help graduates become the leaders, thinkers, and doers of tomorrow.</p>
+                <!-- Source: Client Provided -->
+            </section>
+        </div>
+
+
+        <h2 class="home_h2">About the Department</h2>
+        <div class="home_text">
+            <p> Information Science examines information systems in their social, cultural, economic,
+                historical, legal, and political contexts. Studying technology and the ways in which
+                technology is used is essential to the field.</p>
+            <!-- Source: Client Provided -->
+            <p>Cornell Information Science was born out of the need to provide a home for academics who
+                wanted to study the use of technology rather than the creation of it. Starting as an
+                interdisciplinary minor in 2002, Cornell Information Science grew into a full-fledged major graduating the first five students in 2005. Since then, we've grown to nearly 500
+                undergraduate majors enrolled across all three schools, more than 200 master’s students and 89 PhDs. Our 42 faculty members are leaders in their respective fields within Information Science's interdisciplinary structure, specializing in areas like machine learning, artificial intelligence, human-computer interaction, ubiquitous computing, user-experience design, tech-law policy, and much more.</p>
+            <!-- Source: Client Provided -->
+            <p> Cornell Information Science is one of three academic departments – along with Computer
+                Science and Statistics and Data Science – housed under the parent college, the Cornell Ann S. Bowers College of Computing and Information Science. Scholars from our department can be found on Cornell's two campuses: in Gates Hall on the Cornell University campus, located in Ithaca, NY, and at the Cornell Tech campus on Roosevelt Island in New York City. </p>
+            <!-- Source: Client Provided -->
+        </div>
+        <div class="carousel">
+            <button class="home_button" id="prev_slide" aria-label="previous slide">&#10094;</button>
+            <picture>
+                <img src="images/student_image2.jpg" alt="Student in Cornell Bowers" class="slide" id="slide1">
+                <!-- Source: Client Provided -->
+            </picture>
+
+            <picture>
+                <img src="images/gates.jpg" alt="Gates Building" class="slide accessible-hidden" id="slide2">
+                <!-- Source: Client Provided -->
+            </picture>
+
+            <picture>
+                <img src="images/student_image1.jpg" alt="Students in Cornell Bowers Fair" class="slide accessible-hidden" id="slide3">
+                <!-- Source: Client Provided -->
+            </picture>
+            <button class="home_button" id="next_slide" aria-label="next slide">&#10095;</button>
+        </div>
+        <div class="dots_all">
+            <button aria-label="slide 1" class="dots" id="dot1"></button>
+            <button aria-label="slide 2" class="dots" id="dot2"></button>
+            <button aria-label="slide3" class="dots" id="dot3"></button>
+        </div>
+
+    </main>
+    <footer class="footer_flex">
+        <!-- Nav, Contact, Links, Logo -->
+        <div class="footer-elements">
+            <h2>Website Navigation:</h2>
+            <nav class="nav_footer">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="academic.html">Academic Information</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="staff.html">Staff</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-elements">
+            <h2>Contact Us:</h2>
+            <ul>
+                <li>Advising: ISadvising@cornell.edu</li>
+                <li>Student Services: ISadvising@cornell.edu</li>
+            </ul>
+        </div>
+
+        <div class="footer-elements">
+            <h2>Useful Links:</h2>
+            <ul class="footer-link">
+                <li><a href="https://www.cornell.edu">www.cornell.edu</a></li>
+                <li><a href="https://www.tech.cornell.edu">www.tech.cornell.edu</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-elements">
+            <div class="menu-container">
+                <a href="index.html">
+                    <picture>
+                        <img src="images/CornellBowers_Horizontal_Lockup_White.png" alt="Cornell Bowers Logo">
+                        <!-- Source: Client Provided -->
+                    </picture>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/carousel.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/banner.js"></script>
+
+</body>
+
+
+</html>
