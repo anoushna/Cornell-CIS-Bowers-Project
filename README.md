@@ -1,1 +1,1 @@
-# website2
+As part of a group project in my course Introductory Design and Programming for the Web, we had to redesign the CIS Bowers website. I was in charge of the Home page, which is the only page I have included in this repository. This project included HTML, CSS, and Javascript. 
