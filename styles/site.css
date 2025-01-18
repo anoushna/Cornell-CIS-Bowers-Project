@@ -27,7 +27,6 @@ footer {
 
 .footer-link li a {
   color: white;
-  text-decoration: none;
 }
 
 .footer-elements {
@@ -223,10 +222,6 @@ nav ul li a {
 
 .academic-head h1 {
   color: rgb(184, 32, 32);
-}
-
-.academic-side ul li a {
-  text-decoration: none;
 }
 
 .academic-side ul li a:hover {
